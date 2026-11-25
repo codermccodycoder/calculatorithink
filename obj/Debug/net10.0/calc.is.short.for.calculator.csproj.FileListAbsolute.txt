@@ -1,0 +1,17 @@
+C:\Users\Apple\Documents\GitHub\calculatorithink\bin\Debug\net10.0\calc.is.short.for.calculator.exe
+C:\Users\Apple\Documents\GitHub\calculatorithink\bin\Debug\net10.0\calc.is.short.for.calculator.deps.json
+C:\Users\Apple\Documents\GitHub\calculatorithink\bin\Debug\net10.0\calc.is.short.for.calculator.runtimeconfig.json
+C:\Users\Apple\Documents\GitHub\calculatorithink\bin\Debug\net10.0\calc.is.short.for.calculator.runtimeconfig.dev.json
+C:\Users\Apple\Documents\GitHub\calculatorithink\bin\Debug\net10.0\calc.is.short.for.calculator.dll
+C:\Users\Apple\Documents\GitHub\calculatorithink\bin\Debug\net10.0\calc.is.short.for.calculator.pdb
+C:\Users\Apple\Documents\GitHub\calculatorithink\obj\Debug\net10.0\calc.is.short.for.calculator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Apple\Documents\GitHub\calculatorithink\obj\Debug\net10.0\calc.is.short.for.calculator.AssemblyInfoInputs.cache
+C:\Users\Apple\Documents\GitHub\calculatorithink\obj\Debug\net10.0\calc.is.short.for.calculator.AssemblyInfo.cs
+C:\Users\Apple\Documents\GitHub\calculatorithink\obj\Debug\net10.0\calc.is.short.for.calculator.csproj.CoreCompileInputs.cache
+C:\Users\Apple\Documents\GitHub\calculatorithink\obj\Debug\net10.0\calc.is.short.for.calculator.sourcelink.json
+C:\Users\Apple\Documents\GitHub\calculatorithink\obj\Debug\net10.0\calc.is.short.for.calculator.dll
+C:\Users\Apple\Documents\GitHub\calculatorithink\obj\Debug\net10.0\refint\calc.is.short.for.calculator.dll
+C:\Users\Apple\Documents\GitHub\calculatorithink\obj\Debug\net10.0\calc.is.short.for.calculator.pdb
+C:\Users\Apple\Documents\GitHub\calculatorithink\obj\Debug\net10.0\calc.is.short.for.calculator.genruntimeconfig.cache
+C:\Users\Apple\Documents\GitHub\calculatorithink\obj\Debug\net10.0\ref\calc.is.short.for.calculator.dll
+C:\Users\Apple\Documents\GitHub\calculatorithink\obj\Debug\net10.0\calc.is..E4DCC899.Up2Date

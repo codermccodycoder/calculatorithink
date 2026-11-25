@@ -1,4 +1,5 @@
 ﻿//Console.WriteLine("Hello, World!");
+using System.ComponentModel.Design;
 using System.Threading;
 
 bool supersecretdevmode = false;
@@ -283,10 +284,10 @@ while (i.Count > 0)
     i.Remove(null);
 
 
-//scales the whole number thingo
-if (x.Length > 1)
+//does stuff
+if (y.Length > 1 && x.Length > 1)
 {
-    if (y.Length < 2 || x[1].Length > y[1].Length)
+    if (x[1].Length > y[1].Length)
     {
         //loops for amount of decimal places
         while (i2.Count < x[1].Length)
@@ -300,14 +301,30 @@ if (x.Length > 1)
                     if (xnegative)
                     {
                         negative.Add(null);
+                        if (superdupersecretdevmode)
+                        {
+                            Console.WriteLine("incremented negative list");
+                        }
                     }
                     else
                     {
                         positive.Add(null);
+                        if (superdupersecretdevmode)
+                        {
+                            Console.WriteLine("incremented positive list");
+                        }
+                    }
+                    if (superdupersecretdevmode)
+                    {
+                        Console.WriteLine("completed x increment times 10");
                     }
                 }
                 //increments i3 for a counter
                 i3.Add(null);
+                if (superdupersecretdevmode)
+                {
+                    Console.WriteLine("a");
+                }
             }
             //clears i3 after it has been used as a counter
             while (i3.Count > 0)
@@ -315,7 +332,7 @@ if (x.Length > 1)
             //clears i5 after it has been used to represent positive.Count or negative.Count
             while (i5.Count > 0)
                 i5.Remove(null);
-            //sets i5 equal to positive.Count or negative.Count
+            //sets i5 equal to positive2.Count or negative2.Count
             if (xnegative)
             {
                 while (i6.Count < negative.Count)
@@ -338,6 +355,9 @@ if (x.Length > 1)
             //increments i2 for a counter
             i2.Add(null);
         }
+        //clears i2 after it has been used as a counter
+        while (i2.Count > 0)
+            i2.Remove(null);
     }
     else
     {
@@ -353,14 +373,30 @@ if (x.Length > 1)
                     if (xnegative)
                     {
                         negative.Add(null);
+                        if (superdupersecretdevmode)
+                        {
+                            Console.WriteLine("incremented negative list");
+                        }
                     }
                     else
                     {
                         positive.Add(null);
+                        if (superdupersecretdevmode)
+                        {
+                            Console.WriteLine("incremented positive list");
+                        }
+                    }
+                    if (superdupersecretdevmode)
+                    {
+                        Console.WriteLine("completed x increment times 10");
                     }
                 }
                 //increments i3 for a counter
                 i3.Add(null);
+                if (superdupersecretdevmode)
+                {
+                    Console.WriteLine("a");
+                }
             }
             //clears i3 after it has been used as a counter
             while (i3.Count > 0)
@@ -391,7 +427,160 @@ if (x.Length > 1)
             //increments i2 for a counter
             i2.Add(null);
         }
+        //clears i2 after it has been used as a counter
+        while (i2.Count > 0)
+            i2.Remove(null);
     }
+}
+
+//scales if only one has length
+if (y.Length > 1 ^ x.Length > 1)
+{
+    if (y.Length > x.Length)
+    {
+        //loops for amount of decimal places
+        while (i2.Count < y[1].Length)
+        {
+            //loops for amount of positives or negatives stored
+            while (i3.Count < i5.Count)
+            {
+                //loops nine times because 1z + 9z = z times 10
+                foreach (object o in i4)
+                {
+                    if (xnegative)
+                    {
+                        negative.Add(null);
+                        if (superdupersecretdevmode)
+                        {
+                            Console.WriteLine("incremented negative list");
+                        }
+                    }
+                    else
+                    {
+                        positive.Add(null);
+                        if (superdupersecretdevmode)
+                        {
+                            Console.WriteLine("incremented positive list");
+                        }
+                    }
+                    if (superdupersecretdevmode)
+                    {
+                        Console.WriteLine("completed x increment times 10");
+                    }
+                }
+                //increments i3 for a counter
+                i3.Add(null);
+                if (superdupersecretdevmode)
+                {
+                    Console.WriteLine("a");
+                }
+            }
+            //clears i3 after it has been used as a counter
+            while (i3.Count > 0)
+                i3.Remove(null);
+            //clears i5 after it has been used to represent positive2.Count or negative2.Count
+            while (i5.Count > 0)
+                i5.Remove(null);
+            //sets i5 equal to positive2.Count or negative2.Count
+            if (xnegative)
+            {
+                while (i6.Count < negative.Count)
+                {
+                    i5.Add(null);
+                    i6.Add(null);
+                }
+            }
+            else
+            {
+                while (i6.Count < positive.Count)
+                {
+                    i5.Add(null);
+                    i6.Add(null);
+                }
+            }
+            //clears i6 after it has been used as a counter
+            while (i6.Count > 0)
+                i6.Remove(null);
+            //increments i2 for a counter
+            i2.Add(null);
+        }
+        //clears i2 after it has been used as a counter
+        while (i2.Count > 0)
+            i2.Remove(null);
+    }
+    else
+    {
+        //loops for amount of decimal places
+        while (i2.Count < x[1].Length)
+        {
+            //loops for amount of positives or negatives stored
+            while (i3.Count < i5.Count)
+            {
+                //loops nine times because 1z + 9z = z times 10
+                foreach (object o in i4)
+                {
+                    if (xnegative)
+                    {
+                        negative.Add(null);
+                        if (superdupersecretdevmode)
+                        {
+                            Console.WriteLine("incremented negative list");
+                        }
+                    }
+                    else
+                    {
+                        positive.Add(null);
+                        if (superdupersecretdevmode)
+                        {
+                            Console.WriteLine("incremented positive list");
+                        }
+                    }
+                    if (superdupersecretdevmode)
+                    {
+                        Console.WriteLine("completed x increment times 10");
+                    }
+                }
+                //increments i3 for a counter
+                i3.Add(null);
+                if (superdupersecretdevmode)
+                {
+                    Console.WriteLine("a");
+                }
+            }
+            //clears i3 after it has been used as a counter
+            while (i3.Count > 0)
+                i3.Remove(null);
+            //clears i5 after it has been used to represent positive.Count or negative.Count
+            while (i5.Count > 0)
+                i5.Remove(null);
+            //sets i5 equal to positive.Count or negative.Count
+            if (xnegative)
+            {
+                while (i6.Count < negative.Count)
+                {
+                    i5.Add(null);
+                    i6.Add(null);
+                }
+            }
+            else
+            {
+                while (i6.Count < positive.Count)
+                {
+                    i5.Add(null);
+                    i6.Add(null);
+                }
+            }
+            //clears i6 after it has been used as a counter
+            while (i6.Count > 0)
+                i6.Remove(null);
+            //increments i2 for a counter
+            i2.Add(null);
+        }
+        //clears i2 after it has been used as a counter
+        while (i2.Count > 0)
+            i2.Remove(null);
+    }
+
 }
 
 //clears i2 after it has been used as a counter
@@ -407,6 +596,8 @@ while (i2.Count > 0)
 //actually 8 of my last 11 conscious hours were on this
 //still havent added negative implementation yet but how hard could it be fr
 //update, i added negative implementation, and it was not in fact very hard
+//update, the length of the code responsible for scaling logic has quadroupled in length,
+//so your not really looking at the same code i was freaking out about
 
 if (supersecretdevmode)
 {
@@ -555,9 +746,10 @@ while (i.Count > 0)
     i.Remove(null);
 
 //scales the whole number thingo
-if (y.Length > 1)
+//if x and y [1] have length
+if (y.Length > 1 && x.Length > 1)
 {
-    if (x.Length < 2 || y[1].Length > x[1].Length)
+    if (y[1].Length > x[1].Length)
     {
         //loops for amount of decimal places
         while (i2.Count < y[1].Length)
@@ -703,6 +895,156 @@ if (y.Length > 1)
     }
 }
 
+//scales if only one has length
+if (y.Length > 1 ^ x.Length > 1)
+{
+    if (y.Length > x.Length)
+    {
+        //loops for amount of decimal places
+        while (i2.Count < y[1].Length)
+        {
+            //loops for amount of positives or negatives stored
+            while (i3.Count < i5.Count)
+            {
+                //loops nine times because 1z + 9z = z times 10
+                foreach (object o in i4)
+                {
+                    if (ynegative)
+                    {
+                        negative2.Add(null);
+                        if (superdupersecretdevmode)
+                        {
+                            Console.WriteLine("incremented negative 2 list");
+                        }
+                    }
+                    else
+                    {
+                        positive2.Add(null);
+                        if (superdupersecretdevmode)
+                        {
+                            Console.WriteLine("incremented positive 2 list");
+                        }
+                    }
+                    if (superdupersecretdevmode)
+                    {
+                        Console.WriteLine("completed y increment times 10");
+                    }
+                }
+                //increments i3 for a counter
+                i3.Add(null);
+                if (superdupersecretdevmode)
+                {
+                    Console.WriteLine("a");
+                }
+            }
+            //clears i3 after it has been used as a counter
+            while (i3.Count > 0)
+                i3.Remove(null);
+            //clears i5 after it has been used to represent positive2.Count or negative2.Count
+            while (i5.Count > 0)
+                i5.Remove(null);
+            //sets i5 equal to positive2.Count or negative2.Count
+            if (ynegative)
+            {
+                while (i6.Count < negative2.Count)
+                {
+                    i5.Add(null);
+                    i6.Add(null);
+                }
+            }
+            else
+            {
+                while (i6.Count < positive2.Count)
+                {
+                    i5.Add(null);
+                    i6.Add(null);
+                }
+            }
+            //clears i6 after it has been used as a counter
+            while (i6.Count > 0)
+                i6.Remove(null);
+            //increments i2 for a counter
+            i2.Add(null);
+        }
+        //clears i2 after it has been used as a counter
+        while (i2.Count > 0)
+            i2.Remove(null);
+    }
+    else
+    {
+        //loops for amount of decimal places
+        while (i2.Count < x[1].Length)
+        {
+            //loops for amount of positives or negatives stored
+            while (i3.Count < i5.Count)
+            {
+                //loops nine times because 1z + 9z = z times 10
+                foreach (object o in i4)
+                {
+                    if (ynegative)
+                    {
+                        negative2.Add(null);
+                        if (superdupersecretdevmode)
+                        {
+                            Console.WriteLine("incremented negative 2 list");
+                        }
+                    }
+                    else
+                    {
+                        positive2.Add(null);
+                        if (superdupersecretdevmode)
+                        {
+                            Console.WriteLine("incremented positive 2 list");
+                        }
+                    }
+                    if (superdupersecretdevmode)
+                    {
+                        Console.WriteLine("completed y increment times 10");
+                    }
+                }
+                //increments i3 for a counter
+                i3.Add(null);
+                if (superdupersecretdevmode)
+                {
+                    Console.WriteLine("a");
+                }
+            }
+            //clears i3 after it has been used as a counter
+            while (i3.Count > 0)
+                i3.Remove(null);
+            //clears i5 after it has been used to represent positive2.Count or negative2.Count
+            while (i5.Count > 0)
+                i5.Remove(null);
+            //sets i5 equal to positive2.Count or negative2.Count
+            if (ynegative)
+            {
+                while (i6.Count < negative2.Count)
+                {
+                    i5.Add(null);
+                    i6.Add(null);
+                }
+            }
+            else
+            {
+                while (i6.Count < positive2.Count)
+                {
+                    i5.Add(null);
+                    i6.Add(null);
+                }
+            }
+            //clears i6 after it has been used as a counter
+            while (i6.Count > 0)
+                i6.Remove(null);
+            //increments i2 for a counter
+            i2.Add(null);
+        }
+        //clears i2 after it has been used as a counter
+        while (i2.Count > 0)
+            i2.Remove(null);
+    }
+
+}
+
 if (supersecretdevmode)
 {
     Console.WriteLine("for y before decimal addition");
@@ -840,8 +1182,8 @@ if (finalnegative.Count < finalpositive.Count)
 
 //TO DO LIST:
 //get x and y to scale to the same number
-//everything else put on hold until i fix ts i think^
-//current problem, logic assumes each one only needs to be scaled if itself has decimal points
+    //everything else put on hold until i fix ts i think^
+    //ok basically, shi kinda works, x and y scale correctly, EXCEPT, the decimal converters assume they can add the smallest scale, when really it should be scaled according to the most precise 
 //however by allowing it to pass if the other has decimal points, it tries accessing its own decimal points to compare which is more precise, when it may not have decimal points
 //this could likely be easily solved by checking if it has decimal before trying to access it, however i am too lazy to do that currently.
 //figure out the 4 main operations for those classes with output positiveresult and negitiveresult
@@ -849,5 +1191,3 @@ if (finalnegative.Count < finalpositive.Count)
 //print that
 //like, decide what repeat logic ya want
 //probs an option to skip x input and have it equal to finalresult
-//test
-//other test test

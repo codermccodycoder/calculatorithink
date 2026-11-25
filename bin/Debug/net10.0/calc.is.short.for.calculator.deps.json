@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "calc.is.short.for.calculator/1.0.0": {
+        "runtime": {
+          "calc.is.short.for.calculator.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "calc.is.short.for.calculator/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
