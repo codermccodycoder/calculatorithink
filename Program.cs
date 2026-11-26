@@ -1184,6 +1184,7 @@ if (finalnegative.Count < finalpositive.Count)
 //get x and y to scale to the same number
     //everything else put on hold until i fix ts i think^
     //ok basically, shi kinda works, x and y scale correctly, EXCEPT, the decimal converters assume they can add the smallest scale, when really it should be scaled according to the most precise 
+    //dec = x[1] * 10 to the power of (most precise digits - least precise digits)
 //however by allowing it to pass if the other has decimal points, it tries accessing its own decimal points to compare which is more precise, when it may not have decimal points
 //this could likely be easily solved by checking if it has decimal before trying to access it, however i am too lazy to do that currently.
 //figure out the 4 main operations for those classes with output positiveresult and negitiveresult
